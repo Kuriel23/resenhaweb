@@ -7,7 +7,7 @@ export default class Document extends NextDocument {
         <Head>
           {/* Default meta */}
           <meta name="author" content="Resenha" />
-          <meta name="theme-color" content="#e71b1f" />
+          <meta name="theme-color" content="#FFFF00" />
           <meta name="keywords" content="Resenha, discord, server" />
 
           {/* Google Fonts */}
