@@ -1,6 +1,6 @@
 html,
 body {
-  scrollbar-color: #e71b1f #292A2E;
+  scrollbar-color: yellow #292A2E;
   scrollbar-width: 3px;
 
   scroll-behavior: smooth;
@@ -12,7 +12,7 @@ body::-webkit-scrollbar {
 }
  
 body::-webkit-scrollbar-thumb {
-  background: #e71b1f; 
+  background: yellow; 
 }
 
 body::-webkit-scrollbar-track {

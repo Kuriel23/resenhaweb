@@ -1,17 +1,42 @@
-import { HStack, VStack, Center } from "@chakra-ui/react";
+import { HStack, VStack, Center, Link, Text } from "@chakra-ui/react";
 
-import { links } from "../../../data/links";
-
-import { NavLink } from "./NavLink";
+const links = [
+  {
+    title: "Convite",
+    href: "/discord",
+    external: true,
+  },
+  {
+    title: "Sobre",
+    href: "/#sobre",
+    external: false,
+  },
+];
 
 export function NavBar() {
   return (
     <>
       <HStack as="nav" spacing="7" display={{ base: "none", lg: "contents" }}>
-        {links.map(({ title, href, external = false }) => (
-          <NavLink key={title} href={href} isExternal={external}>
-            {title}
-          </NavLink>
+        {links.map(({ title, href, external }) => (
+          <Link
+            key={title}
+            display="flex"
+            align="center"
+            href={href} 
+            style={{ textDecoration: "none" }}
+            isExternal={external}
+          >
+            <Text
+              ml="4"
+              color="gray.400"
+              fontSize="lg"
+              fontFamily="Barlow"
+              fontWeight="medium"
+              _hover={{ color: "white" }}
+            >
+              {title}
+            </Text>
+          </Link>
         ))}
       </HStack>
       <VStack
@@ -19,11 +44,27 @@ export function NavBar() {
         spacing="3"
         display={{ base: "contents", lg: "none" }}
       >
-        {links.map(({ title, href, external = false }) => (
+        {links.map(({ title, href, external }) => (
           <Center key={title}>
-            <NavLink key={title} href={href} isExternal={external}>
-              {title}
-            </NavLink>
+            <Link
+              key={title}
+              display="flex"
+              align="center"
+              href={href}
+              style={{ textDecoration: "none" }}
+              isExternal={external}
+            >
+              <Text
+                ml="4"
+                color="gray.400"
+                fontSize="lg"
+                fontFamily="Barlow"
+                fontWeight="medium"
+                _hover={{ color: "white" }}
+              >
+                {title}
+              </Text>
+            </Link>
           </Center>
         ))}
       </VStack>

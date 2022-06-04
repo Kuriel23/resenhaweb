@@ -24,7 +24,7 @@ export function Header() {
         h="76px"
         px={{ base: "9", lg: "24" }}
         m="0 auto"
-        bg="#292A2E"
+        bg="#2C2F33"
         align="center"
         justify="space-between"
       >

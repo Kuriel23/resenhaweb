@@ -6,7 +6,7 @@ import { Links } from './Links';
 export function Footer() {
   return (
     <Box as="footer">
-      <Box borderTopWidth="5px" borderTopColor="yellow" bg="#292A2E">
+      <Box borderTopWidth="5px" borderTopColor="yellow" bg="#2C2F33">
         <Flex
           w="100%"
           px="30"
