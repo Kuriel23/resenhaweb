@@ -37,7 +37,7 @@ export function SEO({
 
       <meta property="og:type" content="website" />
       <meta property="og:locale" content="pt_BR" />
-      <meta property="og:site_name" content="KurielDev" />
+      <meta property="og:site_name" content="Resenha" />
 
       <meta property="og:title" content={title} />
       <meta property="og:url" content={canonical} />

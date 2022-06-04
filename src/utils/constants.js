@@ -1,1 +1,1 @@
-export const APP_URL = 'https://kurieldev.tk';
+export const APP_URL = '/';
