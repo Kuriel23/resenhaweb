@@ -17,6 +17,7 @@ import {
   Avatar,
   VStack,
   Link,
+  Tag,
   HStack,
   Center,
 } from "@chakra-ui/react";

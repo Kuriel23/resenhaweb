@@ -1,4 +1,4 @@
 module.exports = {
-  siteUrl: 'https://www.kurieldev.tk',
+  siteUrl: 'https://www.resenha.cf',
   generateRobotsTxt: false
 }
