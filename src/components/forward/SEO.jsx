@@ -57,7 +57,7 @@ export function SEO({
       <meta name="twitter:image" content={metaImage} />
       <meta name="twitter:image:src" content={metaImage} />
 
-      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:card" content="summary_small_image" />
 
       {children}
     </Head>
