@@ -11,6 +11,11 @@ const links = [
     href: "/#sobre",
     external: false,
   },
+  {
+    title: "Forms",
+    href: "/forms",
+    external: false,
+  }
 ];
 
 export function NavBar() {
