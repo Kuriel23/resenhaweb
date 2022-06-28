@@ -1,3 +1,3 @@
-export function DefaultLayout({ children }) {
-  return <>{children}</>;
+export function DefaultLayout ({ children }) {
+  return <>{children}</>
 }

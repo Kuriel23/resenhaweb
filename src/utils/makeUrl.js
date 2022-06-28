@@ -1,13 +1,13 @@
-import urlJoin from 'url-join';
+import urlJoin from 'url-join'
 
-import { APP_URL } from './constants';
+import { APP_URL } from './constants'
 
-const urlRegex = /^https?:\/\/+/;
+const urlRegex = /^https?:\/\/+/
 
-export function makeUrl(path) {
+export function makeUrl (path) {
   if (urlRegex.test(path)) {
-    return path;
+    return path
   }
 
-  return urlJoin(APP_URL, path);
+  return urlJoin(APP_URL, path)
 }
